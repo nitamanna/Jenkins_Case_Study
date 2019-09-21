@@ -1,14 +1,5 @@
 pipeline {
   agent any
-    scm {
-        git {
-            remote {
-                url('https://github.com/nitamanna/Takeaway_Case_Study.git')
-                credentials('Github')
-            }
-            branch('master')
-        }
-    }
     stages {
     	stage('Build docker images') {
     		steps { 
