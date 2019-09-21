@@ -1,4 +1,5 @@
-job('Airflow_DSL_Job') {
+pipeline {
+  agent any
     scm {
         git {
             remote {
