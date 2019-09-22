@@ -1,5 +1,3 @@
-#!bin/bash
-
 # Create Log Grour if not already exists
 
 

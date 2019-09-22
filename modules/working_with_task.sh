@@ -1,4 +1,3 @@
-#!bin/bash
 
 # Creating Task Ddefinition
 
