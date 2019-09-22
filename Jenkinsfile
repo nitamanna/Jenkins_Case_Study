@@ -3,7 +3,7 @@ pipeline {
     stages {
     	stage('Build docker images') {
     		steps { 
-			sh 'chmod -R 777 /modules/'
+			sh 'chmod -R 777 ./modules/'
     			sh './modules/build_images.sh'
     		}
     	}
